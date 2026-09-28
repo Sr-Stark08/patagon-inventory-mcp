@@ -67,7 +67,7 @@ Tools carry MCP annotations (`readOnlyHint`, `idempotentHint`) so hosts can deci
 
 ## Quick start
 
-Requires Node.js 20+.
+Requires Node.js 22+.
 
 ```bash
 git clone https://github.com/Sr-Stark08/patagon-inventory-mcp.git
@@ -121,7 +121,7 @@ npm test
 - **End-to-end tests** that connect a real MCP `Client` to the server over an in-memory transport and exercise
   tools, resource templates and prompts through the protocol.
 
-CI (GitHub Actions) runs type-checking, tests and the build on Node 20 and 22, then builds the Docker image and
+CI (GitHub Actions) runs type-checking, tests and the build on Node 22 and 24, then builds the Docker image and
 smoke-tests it over stdio.
 
 ## Project structure
